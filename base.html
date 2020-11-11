@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Writer Effect</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Word Racer</h1>
+        </header>
+        <div class="content">
+            <h2>Type the Given Word Within 
+                <span class='time-limit'>4</span>
+                Seconds
+            </h2>
+            <h1 class='word'>postgresql</h1>
+            <input type='text'
+                    placeholder="Start typing..."
+                    autofocus
+            />
+            <h3 class='result'></h3>
+            <!-- SCORE -->
+            <div class="score-container">
+                <h2>
+                    Time Left:
+                    <span class='time-left'>5</span>
+                </h2>
+                <h2>
+                    Score:
+                    <span class="score">0</span>
+                </h2>
+            </div>
+            <div class="instructions">
+                Race against time to type each
+                word in given amount of seconds.
+                To play again, just type the current word.
+                Your score will reset.
+            </div>
+        </div>
+            </div>
+    <!-- Java Script -->
+    <script src='main.js'></script>
+</body>
+</html>

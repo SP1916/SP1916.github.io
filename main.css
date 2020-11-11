@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+body {
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+
+header {
+    background: #555;
+    padding: 1rem;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+@media(max-width: 700px) {
+    .content {
+        width: 80%;
+    }
+}
+
+.content h2, h3 {
+    margin: 1.5rem;
+}
+
+span.time-limit {
+    color: dodgerblue;
+    font-size: 2rem;
+}
+
+.word {
+    margin: 2rem;
+    color: dodgerblue;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px 1rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid dodgerblue;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.time-left {
+    color: red;
+}
+.score {
+    color: green;
+}
+
+.instructions {
+    background: #555;
+    padding: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
